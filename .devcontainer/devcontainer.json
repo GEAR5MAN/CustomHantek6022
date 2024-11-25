@@ -6,8 +6,8 @@
 	"image": "mcr.microsoft.com/devcontainers/base:bullseye",
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
-		"ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
-			"packages": "build-essential, sdcc"
+		"ghcr.io/wxw-matt/devcontainer-features/apt:latest": {
+			"packages": "build-essential sdcc"
 		}
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
